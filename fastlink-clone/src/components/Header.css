@@ -1,0 +1,49 @@
+header {
+  background-color: white;
+  color: black;
+  padding: 1em 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+header h1 span.link {
+  color: red;
+}
+
+header h1 span.net {
+  color: blue;
+}
+
+nav a {
+  color: black;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.search-cart input[type="text"] {
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-cart button {
+  padding: 0.5em 1em;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

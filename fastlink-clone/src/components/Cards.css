@@ -1,0 +1,41 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  padding: 30px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.card button {
+  padding: 12px 25px;
+  font-size: 0.9em;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: darkred;
+}

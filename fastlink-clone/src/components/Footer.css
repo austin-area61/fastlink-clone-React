@@ -1,0 +1,41 @@
+footer {
+  background: linear-gradient(to right, red, blue);
+  padding: 20px 0;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section h3 {
+  color: #FFFF00;
+}
+
+.section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.section li {
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.socials a {
+  margin: 0 10px;
+}
