@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './card';
-import './cardContainer.css';
+//import './cardContainer.css';
 
 const CardContainer = () => {
     const plans = [
